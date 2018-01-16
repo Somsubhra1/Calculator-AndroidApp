@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this,"Created by Somsubhra Das", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Created by Somsubhra Das", Toast.LENGTH_LONG).show();
 
 
         btn0 = findViewById(R.id.btn0); btn1 = findViewById(R.id.btn1); btn2 = findViewById(R.id.btn2);
@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn0.setOnClickListener(this);btn1.setOnClickListener(this);btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);btn4.setOnClickListener(this);btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);btn7.setOnClickListener(this);btn8.setOnClickListener(this);
-        btn9.setOnClickListener(this);btn0.setOnClickListener(this);btnAdd.setOnClickListener(this);
-        btnMin.setOnClickListener(this);btnMul.setOnClickListener(this);btnDiv.setOnClickListener(this);
-        btnClr.setOnClickListener(this);
+        btn9.setOnClickListener(this);btnAdd.setOnClickListener(this);btnMin.setOnClickListener(this);
+        btnMul.setOnClickListener(this);btnDiv.setOnClickListener(this);btnClr.setOnClickListener(this);
+        btnEq.setOnClickListener(this);btnPoint.setOnClickListener(this);
     }
 
     @Override
